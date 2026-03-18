@@ -1,5 +1,9 @@
 import "clsx";
-import { a as attr_class, e as escape_html, b as ensure_array_like, c as attr } from "../../chunks/index.js";
+import { a as attr_class, e as escape_html, b as ensure_array_like, c as attr, s as stringify } from "../../chunks/index.js";
+import { b as base } from "../../chunks/server.js";
+import "../../chunks/url.js";
+import "@sveltejs/kit/internal/server";
+import "../../chunks/root.js";
 import { m as meta } from "../../chunks/index2.js";
 function Nav($$renderer, $$props) {
   $$renderer.component(($$renderer2) => {
@@ -16,7 +20,7 @@ function Nav($$renderer, $$props) {
       let { href, label } = each_array[$$index];
       $$renderer2.push(`<li><a${attr("href", href)} class="svelte-1h32yp1">${escape_html(label)}</a></li>`);
     }
-    $$renderer2.push(`<!--]--></ul> <a href="/resume.pdf" class="resume svelte-1h32yp1" target="_blank" rel="noopener">Resume</a></div></nav>`);
+    $$renderer2.push(`<!--]--></ul> <a${attr("href", `${stringify(base)}/resume.pdf`)} class="resume svelte-1h32yp1" target="_blank" rel="noopener">Resume</a></div></nav>`);
   });
 }
 function _layout($$renderer, $$props) {

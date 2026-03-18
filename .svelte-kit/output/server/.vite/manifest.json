@@ -7,6 +7,7 @@
     "imports": [
       "_root.js",
       "_environment.js",
+      "_server.js",
       "_internal.js"
     ]
   },
@@ -39,7 +40,8 @@
     "name": "internal",
     "imports": [
       "_root.js",
-      "_environment.js"
+      "_environment.js",
+      "_server.js"
     ]
   },
   "_root.js": {
@@ -50,12 +52,20 @@
       "_false.js"
     ]
   },
+  "_server.js": {
+    "file": "chunks/server.js",
+    "name": "server"
+  },
   "_shared.js": {
     "file": "chunks/shared.js",
     "name": "shared",
     "imports": [
       "_utils.js"
     ]
+  },
+  "_url.js": {
+    "file": "chunks/url.js",
+    "name": "url"
   },
   "_utils.js": {
     "file": "chunks/utils.js",
@@ -69,6 +79,7 @@
     "imports": [
       "_shared.js",
       "_false.js",
+      "_server.js",
       "_environment.js"
     ]
   },
@@ -79,9 +90,10 @@
     "isEntry": true,
     "imports": [
       "_index.js",
-      "_exports.js",
+      "_url.js",
       "_root.js",
-      "_utils.js"
+      "_utils.js",
+      "_exports.js"
     ]
   },
   "node_modules/@sveltejs/kit/src/runtime/server/index.js": {
@@ -91,10 +103,11 @@
     "isEntry": true,
     "imports": [
       "_false.js",
-      "_environment.js",
+      "_server.js",
       "_shared.js",
-      "_exports.js",
+      "_url.js",
       "_utils.js",
+      "_exports.js",
       "_internal.js"
     ]
   },
@@ -105,6 +118,9 @@
     "isEntry": true,
     "imports": [
       "_index.js",
+      "_server.js",
+      "_url.js",
+      "_root.js",
       "_index2.js"
     ],
     "css": [

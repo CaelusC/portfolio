@@ -1,4 +1,4 @@
-import { a as attr_class, e as escape_html, c as attr, b as ensure_array_like, a3 as attr_style, a4 as stringify, a5 as head } from "../../chunks/index.js";
+import { a as attr_class, e as escape_html, c as attr, b as ensure_array_like, a4 as attr_style, s as stringify, a5 as head } from "../../chunks/index.js";
 import { m as meta, p as projects, s as skills } from "../../chunks/index2.js";
 function Hero($$renderer, $$props) {
   $$renderer.component(($$renderer2) => {

@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { base } from '$app/paths';
 	import { onMount } from 'svelte';
 	import { meta } from '$lib/data';
 
@@ -28,7 +29,7 @@
 			{/each}
 		</ul>
 
-		<a href="/resume.pdf" class="resume" target="_blank" rel="noopener">
+		<a href="{base}/resume.pdf" class="resume" target="_blank" rel="noopener">
 			Resume
 		</a>
 	</div>
