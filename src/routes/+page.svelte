@@ -1,0 +1,19 @@
+<script lang="ts">
+	import Hero     from '$lib/components/Hero.svelte';
+	import About    from '$lib/components/About.svelte';
+	import Projects from '$lib/components/Projects.svelte';
+	import Skills   from '$lib/components/Skills.svelte';
+	import Contact  from '$lib/components/Contact.svelte';
+	import { meta } from '$lib/data';
+</script>
+
+<svelte:head>
+	<title>{meta.name} — {meta.role}</title>
+	<meta name="description" content="{meta.tagline}" />
+</svelte:head>
+
+<Hero />
+<About />
+<Projects />
+<Skills />
+<Contact />
