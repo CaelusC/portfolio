@@ -7,16 +7,16 @@
 </script>
 
 <section class="hero" class:visible>
-	<!-- large green background shape — the prominent green element -->
+	<!-- large green background shape -->
 	<div class="bg-block" aria-hidden="true"></div>
 
-	<!-- subtle floating orbs -->
+	<!-- floating orbs -->
 	<div class="orb orb-1" aria-hidden="true"></div>
 	<div class="orb orb-2" aria-hidden="true"></div>
 
 	<div class="container hero-inner">
 		<div class="hero-text">
-			<p class="availability">{meta.available} — Open to internships</p>
+			<p class="availability">{meta.available} — Open to Internships</p>
 			<h1>{meta.name}</h1>
 			<div class="rule"></div>
 			<p class="role">{meta.role}<span class="sep"> — </span>{meta.location}</p>
