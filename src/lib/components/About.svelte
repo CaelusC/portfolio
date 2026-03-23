@@ -30,8 +30,8 @@
 			<div class="body-text">
 				<p>
 					I am an ICT student at {meta.school}, where i learn how to develop 
-					functional applications. From websites and webapps to embeded programs 
-					and protocol based communication.
+					applications. From websites and Webapps to Embeded programs 
+					and Protocol based Communication apps.
 				</p>
 				<p>
 					Outside of coursework, I co-develop a game in Godot, a passion project 

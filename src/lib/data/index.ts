@@ -19,17 +19,14 @@ export const projects = [
 		description:
 			'A 2D game built in the Godot engine, currently in active development. My contributions include NPC AI and pathfinding, a game state machine, battle system logic, and custom sprites and animations for all NPCs',
 		tags: ['Godot', 'C++', 'JSON'],
-		github: 'https://github.com/yourname/project-alpha',
 	},
 	{
 		id: 2,
 		title: 'Movie Rental Page',
 		year: '2025',
 		description:
-			'A web application built for a school project that simulates a movie rental store like Blockbuster. Users can create accounts and rent movies, while the app manages store inventory and handles rental and return logic. The application is secured with bcrypt password hashing and thoroughly tested using Vitest.',
+			'A web app built for a school project that simulates a movie rental store like Blockbuster. Users can create accounts and rent movies, while the app manages store inventory and handles rental and return logic. The application is secured with bcrypt password hashing and thoroughly tested using Vitest.',
 		tags: ['Svelte', 'Express', 'SQLite', 'Vitest', 'JavaScript'],
-		gitlab: 'https://github.com/yourname/project-beta',
-		live: '',
 	},
 	{
 		id: 3,
@@ -37,8 +34,24 @@ export const projects = [
 		year: '2025',
 		description:
 			'A fullstack web application developed collaboratively with 12 other students, designed to help study coaches manage student appointments and communicate  within the platform, reducing the need for multiple tools and emailing. My contributions included designing and building critical frontend pages, developing a large portion of the backend, and independently setting up a GitLab CI/CD pipeline to solidify my DevOps knowledge.',
-		tags: ['Svelte', 'GitLab CI', 'Sequelize', ''],
-	}
+		tags: ['Svelte', 'GitLab CI', 'Sequelize', 'Express', 'Swagger'],
+	},
+	{
+		id: 4,
+		title: 'Internet Technology Project',
+		year: '2025',
+		description:
+			'A application that handles internet communication. The project involved implementing different network protocols and ensuring a strict communication between clients and servers. I learned how to handle network communication in Java and how to handle large amounts of data efficiently. I also had to write extensive tests using JUnit to ensure the reliability and correctness of the application.',
+		tags: ['Java', 'JUnit'],
+	},
+	{
+		id: 5,
+		title: 'Dutch Railway Track Manager',
+		year: '2025',
+		description:
+			'A railway track manager app for Dutch stations that lets you search stations, find shortest routes, plan round trips, compute a minimum spanning tree, and visualize everything on a map, built on custom data structure implementations instead of Javas standard collections. It thought me how to implement complex data structures and algorithms in Java.',
+		tags: ['Java', 'JUnit'],
+	},
 ];
 
 export const skills = {
